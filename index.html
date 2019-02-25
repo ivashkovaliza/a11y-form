@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Accessibility 2019 Q1 BY</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css'>
+  <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'>
+  <link rel="stylesheet prefetch" href="css/styles.css">
+</head>
+
+<body>
+  <section aria-labelledby="contact-us" class="section has-background-light">
+      <div class="container">
+        <div class="section-heading has-text-centered">
+          <h2 class="title is-2" id="contact-us">Register My Team</h2>
+          <div class="subtitle is-5">Don't hesitate, 
+            become part of an amazing team</div>
+        </div>
+
+        <form class="column is-half is-offset-one-quarter box">
+            <div class="field">
+                <label class="label" for="username">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input is-success" aria-placeholder="Enter your username" aria-invalid="true" aria-required="true" type="text" id="username">
+                  <span class="icon is-small is-left">
+                    <span aria-hidden="true" class="fas fa-user"></span>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <span aria-hidden="true" class="fas fa-check"></span>
+                  </span>
+                </div>
+                <p class="help is-success">This username is available</p>
+              </div>
+          <div class="field">
+            <label class="label" for="name">Name</label>
+            <div class="control">
+              <input class="input" type="text" aria-placeholder="Enter your name" aria-invalid="true" aria-required="true" placeholder="Text input" id="name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="name">Surname</label>
+            <div class="control">
+              <input class="input" type="text" aria-placeholder="Enter your name" aria-invalid="true" aria-required="true" placeholder="Text input" id="name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="name">Phone number</label>
+            <div class="control">
+              <input class="input" type="text" aria-placeholder="Enter your name" aria-invalid="true" aria-required="true" placeholder="Text input" id="name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="name">Address</label>
+            <div class="control">
+              <input class="input" type="text" aria-placeholder="Enter your name" aria-invalid="true" aria-required="true" placeholder="Text input" id="name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label" for="name">Postcode</label>
+            <div class="control">
+              <input class="input" type="text" aria-placeholder="Enter your name" aria-invalid="true" aria-required="true" placeholder="Text input" id="name">
+            </div>
+          </div>      
+
+          
+
+          <div class="field">
+            <label class="label" for="email">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-danger" type="email" aria-placeholder="Enter your email name@address.com" aria-invalid="true" placeholder="Email input" value="hello@" id="email" aria-required="true">
+              <span class="icon is-small is-left">
+                <span aria-hidden="true"class="fas fa-envelope"></span>
+              </span>
+              <span class="icon is-small is-right">
+                <span aria-hidden="true" class="fas fa-exclamation-triangle"></span>
+              </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+          </div>
+
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+              <button type="reset" class="button is-danger">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+ </body>   
